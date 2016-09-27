@@ -1,2 +1,1 @@
-web:python HelloFlask.py runserver
-heroku ps:scale web=1
+web: gunicorn FlaskDemo.wsgi --log-file - 
