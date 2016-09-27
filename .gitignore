@@ -1,0 +1,12 @@
+.DS_Store
+*.pyc
+*.pyo
+*~
+*.egg
+*.egg-ifno
+dist
+
+build/
+TestFiles/
+.cache/
+.idea/
