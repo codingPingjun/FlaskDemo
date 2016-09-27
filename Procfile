@@ -1,1 +1,1 @@
-web: gunicorn FlaskDemo.wsgi --log-file - 
+web: gunicorn -b 0.0.0.0:$PORT app:HelloFlask 
