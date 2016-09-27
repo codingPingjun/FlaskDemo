@@ -1,1 +1,1 @@
-web: gunicorn -b 0.0.0.0:$PORT app:HelloFlask 
+web: gunicorn -b 0.0.0.0:$PORT HelloFlask:app
